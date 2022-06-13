@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin liên hệ</title>
+    <style>
+body{
+    background-color: #ccc;
+    background-image: url('image\nen.webp');
+}
+.container {
+    position: absolute;
+    width: 96%;
+    height: calc(70% - 20px);
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+    background-color: white;
+}
+ul {
+    list-style: none;
+    float: right;
+    line-height: auto;
+}
+p {
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+}
+.form {
+    text-align: center;
+    max-width:420px;
+    margin: 0px auto;
+}
+#form1 input[type=text] {
+    font-size: 18px;   
+    line-height: 22px;
+    border:2px solid #1929ff;
+    padding: 13px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#form1 #fcontent {
+height: 100px;
+}
+#form1 input[type=submit] {
+color:white;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: #1929ff;
+border:2px solid #1929ff;
+padding: 13px;
+margin-bottom: 15px;
+width:100%;
+}
+#form1 input[type="submit"]:hover {
+background:#c20000;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Thông Tin Liên Hệ</h2>
+            <p>Vui lòng liên hệ, chúng tôi sẽ trả lời trong thời gian sớm nhất</p>
+            <ul>
+            <li>
+                <span><p>Địa chỉ:</p> 140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP.HCM<br />
+                </span>
+            </li>
+            <li>
+                <span><p>Email:</p>infor@hufi.edu.vn</span>
+            </li>
+            <li>
+                <span><p>Hotline:</p> 0283 8163 318</span>
+            </li>
+            </ul>
+        </div>
+        <div class="form">
+            <form action="" id="form1">
+                <h2>Gửi thông tin</h2>
+            <input type="text" id="fname" name="fname" placeholder="Họ tên"><br>
+            <input type="text" id="femail" name="femail" placeholder="Địa chỉ Email"><br>
+            <input type="text" id="fcontent" name="fcontent" placeholder="Nội dung yêu cầu"><br>
+            <input type="submit" value="Gửi liên hệ">
+            </form>
+            </div>
+    </div>
+</body>
+</html>

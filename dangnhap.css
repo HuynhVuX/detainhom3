@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('image\wp5586545.webp');
+    background-color: #cccccc;
+}
+.container {
+    position: absolute;
+    right: 35%;
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+    width: 400px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 20px 0;
+    background: antiquewhite;
+    border: none;
+} 
+.button {
+    background-color: rgb(75, 75, 236);
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 40%;
+    padding: 10px;
+    margin-right: 40px;
+}
